@@ -12,4 +12,4 @@ if __name__ == "__main__":
     print(greet(user_name))
     print("Welcome to DevAsc")
 
-print("Hello from the Challange video")
+print("Hello from the Challange video October 2025!")
