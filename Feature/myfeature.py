@@ -10,4 +10,4 @@ def greet(name: str) -> str:
 if __name__ == "__main__":
     user_name = input("Enter your name: ")
     print(greet(user_name))
-    print("Welcome to DevAsc")
+    print("Welcome to DevAsc1")
