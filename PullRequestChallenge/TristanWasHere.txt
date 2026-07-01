@@ -1,0 +1,8 @@
+I was able to do a pull request by doing the following:
+Created a fork on github from the main repo
+Cloned the repo down to git on my local machine
+Opening the repo with vs code and creating a new branch
+Publishing the branch to github and adding my own changes like this
+Staging and committing the changes on git
+Uploading these back to the fork on github
+Requesting pull request by pointing these changes to merge to original.
