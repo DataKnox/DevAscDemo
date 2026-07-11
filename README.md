@@ -1,2 +1,2 @@
 # DevAscDemo
-Devnet Associate training 2025
+CCNA Automation training 2025
