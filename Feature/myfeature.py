@@ -1,3 +1,4 @@
+print("stinkycrunchguy was here")
 def greet(name: str) -> str:
     """
     Returns a greeting message for the given name.
