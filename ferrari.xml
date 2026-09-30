@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicle manufacturer="Ferrari" model="296 GTB" modelYear="2024">
+  <identity>
+    <brand>Ferrari</brand>
+    <model>296 GTB</model>
+    <bodyStyle>Mid-engine berlinetta coupe</bodyStyle>
+    <vehicleClass>Plug-in hybrid sports car</vehicleClass>
+    <specificationNote>Representative details; specifications vary by market and configuration.</specificationNote>
+    <seatingCapacity>2</seatingCapacity>
+    <doors>2</doors>
+    <assemblyLocation>Maranello, Italy</assemblyLocation>
+  </identity>
+  <powertrain>
+    <configuration>Plug-in hybrid</configuration>
+    <engine>
+      <type>90-degree V6, twin-turbocharged</type>
+      <displacement unit="L">3.0</displacement>
+      <valvetrain>DOHC, four valves per cylinder</valvetrain>
+      <lubrication>Dry sump</lubrication>
+      <maximumPower unit="hp">654</maximumPower>
+      <maximumTorque unit="Nm">740</maximumTorque>
+    </engine>
+    <electricMotor>
+      <type>Permanent-magnet synchronous motor</type>
+      <maximumPower unit="hp">164</maximumPower>
+      <maximumTorque unit="Nm">315</maximumTorque>
+    </electricMotor>
+    <combinedOutput unit="hp">819</combinedOutput>
+    <transmission>
+      <type>8-speed dual-clutch automatic</type>
+      <driveLayout>Rear-wheel drive</driveLayout>
+      <differential>Electronic rear differential</differential>
+    </transmission>
+    <battery>
+      <chemistry>Lithium-ion</chemistry>
+      <capacity unit="kWh">7.45</capacity>
+      <charging>Regenerative braking and external AC charging</charging>
+      <electricRange unit="km">25</electricRange>
+    </battery>
+    <driveModes>
+      <mode>eDrive</mode>
+      <mode>Hybrid</mode>
+      <mode>Performance</mode>
+      <mode>Qualify</mode>
+    </driveModes>
+  </powertrain>
+  <performance>
+    <zeroTo100Kph unit="s">2.9</zeroTo100Kph>
+    <zeroTo200Kph unit="s">7.3</zeroTo200Kph>
+    <topSpeed unit="kph">330</topSpeed>
+    <figuresNote>Manufacturer estimates; actual results depend on conditions.</figuresNote>
+  </performance>
+  <dimensions>
+    <length unit="mm">4565</length>
+    <width unit="mm">1958</width>
+    <widthWithMirrors unit="mm">2050</widthWithMirrors>
+    <height unit="mm">1187</height>
+    <wheelbase unit="mm">2600</wheelbase>
+    <dryWeight unit="kg">1470</dryWeight>
+    <weightDistribution>Approximately 40.5 percent front, 59.5 percent rear</weightDistribution>
+  </dimensions>
+  <chassis>
+    <structure>Aluminum-intensive chassis</structure>
+    <frontSuspension>Independent double wishbone</frontSuspension>
+    <rearSuspension>Independent multi-link</rearSuspension>
+    <dampers>Magnetorheological adaptive dampers</dampers>
+    <steering>Electric power-assisted</steering>
+    <brakes>
+      <type>Carbon-ceramic discs with ABS and electronic brake control</type>
+      <frontDiscDiameter unit="mm">398</frontDiscDiameter>
+      <rearDiscDiameter unit="mm">360</rearDiscDiameter>
+    </brakes>
+    <wheels>
+      <front>20-inch alloy</front>
+      <rear>20-inch alloy</rear>
+    </wheels>
+  </chassis>
+  <exterior>
+    <paintColor>Rosso Corsa (example configuration)</paintColor>
+    <aerodynamics>Active rear spoiler and underbody airflow management</aerodynamics>
+    <lighting>LED headlamps and rear lights</lighting>
+  </exterior>
+  <interior>
+    <trim>Leather and technical-fabric surfaces (configuration dependent)</trim>
+    <instrumentation>Digital driver display</instrumentation>
+    <infotainment>Central display; connectivity varies by market</infotainment>
+    <climateControl>Automatic climate control</climateControl>
+    <luggage>Front luggage compartment</luggage>
+  </interior>
+  <safety>
+    <system>Electronic stability control</system>
+    <system>Traction control</system>
+    <system>Anti-lock braking system</system>
+    <system>Front and side airbags</system>
+    <system>Parking sensors</system>
+    <availabilityNote>Equipment varies by market and selected options.</availabilityNote>
+  </safety>
+  <ownership>
+    <fuel>Premium unleaded gasoline</fuel>
+    <service>Scheduled servicing through an authorized Ferrari dealer</service>
+    <warranty>Consult a local Ferrari dealer for current coverage.</warranty>
+  </ownership>
+  <dataDisclaimer>Figures are representative for the stated model and may differ by model year, market, and configuration.</dataDisclaimer>
+</vehicle>

@@ -1,0 +1,30 @@
+<router>
+    <hostname>Router1</hostname>
+    <interfaces>
+        <interface id="0" enabled="true">
+            <name>GigabitEthernet0/0</name>
+            <ip_address>192.168.1.1</ip_address>
+            <subnet_mask>255.255.255.0</subnet_mask>
+        </interface>
+        <interface id="1" enabled="true">
+            <name>GigabitEthernet0/1</name>
+            <ip_address>192.168.2.1</ip_address>
+            <subnet_mask>255.255.255.0</subnet_mask>
+            
+        </interface>
+    </interfaces>
+    <routing>
+        <routes>
+            <route>
+                <destination>192.168.3.0</destination>
+                <subnet_mask>255.255.255.0</subnet_mask>
+                <next_hop>192.168.1.2</next_hop>
+            </route>
+            <route>
+                <destination>0.0.0.0</destination>
+                <subnet_mask>0.0.0.0</subnet_mask>
+                <next_hop>207.46.113.56</next_hop>
+            </route>
+        </routes>
+    </routing>
+</router>
